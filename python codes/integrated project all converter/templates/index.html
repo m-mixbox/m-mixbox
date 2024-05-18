@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Homepage
+		</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!--<script type="text/JavaScript" src="{{  url_for('static', filename='js/app.js')  }} "></script>-->
+		<style>
+            
+		</style>
+	</head>
+	<body>
+		<header class="page-header">
+			<div class="text-center">Ocr , GSTR 3B to pdf , Excel to Tally XML , GSTR json to excel converter</div>
+		</header>
+		<div class="container">
+			<div class="row ">
+			  <div class="col-12 w-100 mt-3 mb-3 " style="margin-top: 2%;">
+				<a href="{{ url_for('ocr')}}" class="btn btn-primary w-100" style="width: 75%;margin-left: 12.5%;margin-right: 12.5%;padding: 10px;">ocr</a>
+			  </div>
+			  <div class="w-100 h-20"></div>
+			  <div class="col-12 mt-3 mb-3" style="margin-top: 2%;">
+				<a href="{{ url_for('json_')}}" class="btn btn-primary" style="width: 75%;margin-left: 12.5%;margin-right: 12.5%;padding: 10px;">gstr 1 json to excel</a>
+			  </div>
+			  <div class="w-100 h-20"></div>
+			  <div class="col-12 mt-3 mb-3" style="margin-top: 2%;">
+				<a href="{{ url_for('excel')}}" class="btn btn-primary" style="width: 75%;margin-left: 12.5%;margin-right: 12.5%;padding: 10px;">excel to tally</a>
+			  </div>
+			  <div class="w-100 h-20"></div>
+			  <div class="col-12 mt-3 mb-3" style="margin-top: 2%;">
+				<a href="{{ url_for('pdf')}}" class="btn btn-primary" style="width: 75%;margin-left: 12.5%;margin-right: 12.5%;padding: 10px;">gstr 3b pdf to excel</a>
+			  </div>
+			</div>
+		</div>
+		
+	</body>
+	<script>
+	</script>
+</html>

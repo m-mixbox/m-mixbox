@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Homepage
+		</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/JavaScript" src="{{  url_for('static', filename='js/app.js')  }} "></script>
+		<style>
+            form {
+  display: flex;
+  align-items: center;
+}
+			.alert{
+				text-align:center;
+				width:80%;
+				margin:0% 10%;
+				}
+		</style>
+	</head>
+	<body>
+		
+		<form method="post" action="{{ url_for('predict')}}">
+		<div class="fields">
+			<input type="text" class="form-control" placeholder="Enter the url of the pdf" required name="url">
+		</div>
+		<div class="submit">
+			<button class="btn btn-success">Convert</button>
+		</div>
+		</form>
+		<!--<div id="add_button">
+			<div>want more conversion</div>
+			<button class="btn btn-success">add conveter</button>
+		</div>-->
+		{%if res %}
+		<div class="alert alert-success alert-dismissible">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <strong>{{ res }}</strong> 
+</div>
+{% endif%}
+        {%if url %}
+        <div class="alert alert-success alert-dismissible">
+            <!--<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>-->
+            <strong>{%if link %}<a href="{{ link }}" target="_blank">{% endif%}{{ url }}</a></strong> 
+        </div>
+        {% endif%}
+	</body>
+	<script>
+	</script>
+</html>

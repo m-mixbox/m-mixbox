@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Title -->
+  <title>Attex PHP - Responsive Bootstrap 5 and PHP Admin Dashboard</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+  <link rel="stylesheet" href="assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="assets/vendor/prism/prism.css">
+
+  <!-- CSS Template -->
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+
+<body class="bg-white">
+  <!-- Header -->
+  <header class="duik-header">
+    <nav class="navbar navbar-dark fixed-top bg-primary flex-nowrap p-0">
+      <a class="navbar-brand bg-md-primary-darker col-md-3 col-xl-2 mr-0 py-3" href="index.html">
+        <span>
+          <img src="./assets/img/logo-light.png" alt="" height="20">
+        </span>
+      </a>
+
+      <!-- Responsive Toggle Button -->
+      <div class="d-flex d-md-none">
+        <button class="btn btn-link pl-0" type="button" data-toggle="collapse" data-target="#sidebar-nav" aria-controls="sidebar-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg" class="text-light" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+            <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22" />
+          </svg>
+        </button>
+      </div>
+      <!-- End Responsive Toggle Button -->
+
+      <div class="ms-auto mr-3">
+        <span class="badge badge-light">v1.0</span>
+      </div>
+
+    </nav>
+  </header>
+  <!-- End Header -->
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar -->
+
+      <x-menu></x-menu>
+      <!-- End Sidebar -->
+
+      <main class="ml-md-auto col-md-9 col-xl-10 px-4 pt-0 pt-md-11">
+        <div>
+
+          <!-- Content -->
+          <div class="duik-content border-bottom">
+            <div class="p-lg-3">
+              <h2 class="h3">Introduction</h2>
+
+              <p>Attex PHP is admin template created using
+                <strong class="text-danger">PHP</strong> &
+                <strong class="text-danger">Bootstrap v5.2.3</strong>.
+                Attex PHP is crafted by following the best industry standards
+                in order to provide speed and scalability. The clean code structure allows you to
+                build any PHP-based web application without any hustle. The theme includes
+                beautiful dashboards, many ready-to-use hand-crafted components, widgets, pages,
+                etc. The components can be used very easily on any page. It is fully responsive and
+                customizable.
+              </p>
+            </div>
+
+
+            <div class="p-lg-3">
+              <h5 class="mt-0 mb-2">Credits/Plugins</h5>
+              <p>Here is the list of plugins with the official documentation. Attex PHP would
+                not
+                have been easy to build without using them and we are thankful to the open-source
+                community.</p>
+              <div class="table-responsive">
+                <table class="table mb-0 font-14">
+                  <thead>
+                    <tr>
+                      <th>Plugins</th>
+                      <th>Url</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Bootstrap</td>
+                      <td><a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a></td>
+                    </tr>
+
+                    <tr>
+                      <td>Chartjs</td>
+                      <td><a href="http://www.chartjs.org/" target="_blank">http://www.chartjs.org/</a></td>
+                    </tr>
+                    <tr>
+                      <td>Calendar</td>
+                      <td><a href="https://fullcalendar.io/" target="_blank">https://fullcalendar.io/</a></td>
+                    </tr>
+
+                    <tr>
+                      <td>Simplebar</td>
+                      <td><a href="https://github.com/Grsmto/simplebar" target="_blank">https://github.com/Grsmto/simplebar</a></td>
+                    </tr>
+                    <tr>
+                      <td>Apex Charts</td>
+                      <td><a href="https://apexcharts.com/" target="_blank">https://apexcharts.com/</a></td>
+                    </tr>
+
+                    <tr>
+                      <td>Sortablejs</td>
+                      <td><a href="https://github.com/SortableJS/Sortable" target="_blank">https://github.com/SortableJS/Sortable</a>
+                      </td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+          <!-- End Content -->
+        </div>
+
+        <!-- Footer -->
+        <footer class="small py-4">
+          <div class="row">
+            <!-- Copyright -->
+            <div class="col-md-6 text-center text-dark text-md-left mb-3 mb-md-0">
+              <script>document.write(new Date().getFullYear())</script> &copy; Attex theme by <a href="">Coderthemes</a>
+            </div>
+            <!-- End Copyright -->
+
+            <!-- Social Icons -->
+            <div class="col-md-6 col-xl-4 align-self-center">
+              <div class="text-md-right footer-links d-none d-sm-block">
+                <a href="https://coderthemes.com/" target="_blank" class="text-dark mx-2">About Us</a>
+                <a href="https://coderthemes.com/#contact" target="_blank" class="text-dark mx-2">Contact Us</a>
+              </div>
+            </div>
+            <!-- End Social Icons -->
+          </div>
+        </footer>
+        <!-- End Footer -->
+      </main>
+    </div>
+  </div>
+
+  <!-- Go to Top -->
+  <a class="js-go-to duik-go-to" href="javascript:;">
+    <span class="duik-go-to__inner">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" height="24" width="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" />
+      </svg>
+    </span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="assets/vendor/prism/prism.js"></script>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

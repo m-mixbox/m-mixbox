@@ -1,0 +1,18 @@
+.align_center {
+    text-align:center;
+}
+h2 {
+    text-align:center;
+}
+#hidden {
+    margin:5%;
+    padding:0%;
+    border-style: dashed;
+    border-color: black;
+    border-width: 1;
+}
+#print {
+    margin:5%;
+    padding:0%;
+
+}

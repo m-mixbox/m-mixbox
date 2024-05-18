@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex PDF Example</title>
+    <!-- Include Bootstrap CSS from CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="jumbotron">
+            <h1 class="display-4">Complex PDF Example</h1>
+            <p class="lead">This is a more complex example with Bootstrap styling.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 1</h5>
+                        <p class="card-text">Some text content for card 1.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card 2</h5>
+                        <p class="card-text">Some text content for card 2.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="list-group mt-4">
+            <li class="list-group-item">List item 1</li>
+            <li class="list-group-item">List item 2</li>
+            <li class="list-group-item">List item 3</li>
+        </ul>
+
+        <footer class="mt-5">
+            <p>&copy; 2023 Complex PDF Example</p>
+        </footer>
+
+        <!-- Button to trigger PDF generation -->
+        <button id="generatePdfBtn" class="btn btn-primary mt-3">Generate PDF</button>
+    </div>
+
+    <!-- Include jsPDF library from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <!-- Include jsPDF library from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+
+    <script>
+        document.getElementById('generatePdfBtn').addEventListener('click', function () {
+            var pdf = new jsPDF();
+            var element = document.getElementById('content');
+            pdf.fromHTML(element, 15, 15);
+            pdf.save('complex_example.pdf');
+        });
+    </script>
+</body>
+</html>

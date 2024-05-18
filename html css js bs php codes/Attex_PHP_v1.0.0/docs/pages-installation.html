@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>Attex Django - Responsive Bootstrap 5 and Django Admin Dashboard</title>
+
+    <!-- Required Meta Tags Always Come First -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+    <!-- Favicon -->
+    <link href="favicon.ico" rel="shortcut icon">
+
+    <!-- CSS Implementing Plugins -->
+    <link href="assets/vendor/prism/prism.css" rel="stylesheet">
+
+    <!-- CSS Template -->
+    <link href="assets/css/theme.css" rel="stylesheet">
+    <link href="assets/css/layout.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+<!-- Header -->
+<header class="duik-header">
+    <nav class="navbar navbar-dark fixed-top bg-primary flex-nowrap p-0">
+        <a class="navbar-brand bg-md-primary-darker col-md-3 col-xl-2 mr-0 py-3" href="index.html">
+                <span>
+                    <img alt="" height="20" src="./assets/img/logo-light.png">
+                </span>
+        </a>
+
+        <!-- Responsive Toggle Button -->
+        <div class="d-flex d-md-none">
+            <button aria-controls="sidebar-nav" aria-expanded="false" aria-label="Toggle navigation"
+                    class="btn btn-link pl-0"
+                    data-target="#sidebar-nav" data-toggle="collapse" type="button">
+                <svg class="text-light" focusable="false" height="30" viewbox="0 0 30 30" width="30"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 7h22M4 15h22M4 23h22" stroke="currentColor" stroke-linecap="round"
+                          stroke-miterlimit="10"
+                          stroke-width="2"/>
+                </svg>
+            </button>
+        </div>
+        <!-- End Responsive Toggle Button -->
+
+        <div class="ms-auto mr-3">
+            <span class="badge badge-light">v1.0</span>
+        </div>
+
+    </nav>
+</header>
+<!-- End Header -->
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <x-menu></x-menu>
+        <!-- End Sidebar -->
+
+        <main class="ml-md-auto col-md-9 col-xl-10 px-4 pt-0 pt-md-11 ">
+            <div class="card-body m-5">
+                <p class="text-muted"> Attex – PHP is a fully featured premium admin dashboard template
+                    built with
+                    Bootstrap 5 and PHP.</p>
+
+                <h5> Prerequisites:</h5>
+                <p class="text-muted"> Please follow the below steps to install and setup all
+                    prerequisites:</p>
+                <ul>
+                    <li>
+                        <strong>PHP 7.4</strong>
+                        <p>
+                            Make sure to have <a class="text-danger" href="https://www.php.net/" target="_blank">PHP-7.4 or latest version</a> installed &amp; running
+                            on your computer.
+                            If you already have installed PHP on your computer, you
+                            can skip this step.</p>
+                    </li>
+                    <li>
+                        <strong>Xampp</strong>
+                        <p>
+                            Make sure to have <a class="text-danger" href="https://www.apachefriends.org/" target="_blank">the latest version of xampp or</a> installed &amp; running
+                            on your computer.
+                            If you already have installed Xampp on your computer, you
+                            can skip this step.</p>
+                    </li>
+                </ul>
+
+                <h5> Installation:</h5>
+                <p class="text-muted">
+                    After you finished with the above steps, you can run the following commands into the
+                    terminal/command prompt from the root directory ( Attex/admin ) of the project to
+                    run the project locally or build for production use:
+                </p>
+                <p class="text-muted">
+                    Put your project file in xampp/htdocs/. Open your browser and run your project using localhost/yourproject.
+                </p>
+                <table class="table table-bordered m-0 mb-4">
+                    <thead>
+                    <tr>
+                        <th>Description</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            Create a new database with name <code>attex-php</code>, Then import the
+                            <code>attex-php.sql</code> file in your database.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Configure the Database credentials in the <cond>config.php file.
+                        </cond></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            You can test locally with signup as a new user to check all the pages.
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <!-- Footer -->
+            <footer class="small py-4">
+                <div class="row">
+                    <!-- Copyright -->
+                    <div class="col-md-6 text-center text-dark text-md-left mb-3 mb-md-0">
+                        <script>document.write(new Date().getFullYear())</script> &copy; Attex theme by <a href="">Coderthemes</a>
+                    </div>
+                    <!-- End Copyright -->
+
+                    <!-- Social Icons -->
+                    <div class="col-md-6 col-xl-4 align-self-center">
+                        <div class="text-md-right footer-links d-none d-sm-block">
+                            <a class="text-dark mx-2" href="https://coderthemes.com/" target="_blank">About Us</a>
+                            <a class="text-dark mx-2" href="https://coderthemes.com/#contact" target="_blank">Contact
+                                Us</a>
+                        </div>
+                    </div>
+                    <!-- End Social Icons -->
+                </div>
+            </footer>
+            <!-- End Footer -->
+        </main>
+    </div>
+</div>
+
+<!-- Go to Top -->
+<a class="js-go-to duik-go-to" href="javascript:">
+        <span class="duik-go-to__inner">
+            <svg class="w-6 h-6" fill="#ffffff" height="24" stroke="currentColor" stroke-width="1.5"
+                 viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 19.5v-15m0 0l-6.75 6.75M12 4.5l6.75 6.75" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </span>
+</a>
+<!-- End Go to Top -->
+
+<!-- JS Global Compulsory -->
+<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+<script src="assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+<script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+<script src="assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+<script src="assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+<script src="assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+<script src="assets/vendor/prism/prism.js"></script>
+
+<!-- JS -->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/autocomplete.js"></script>
+<script src="assets/js/custom-scrollbar.js"></script>
+</body>
+
+</html>

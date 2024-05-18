@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js" integrity="sha512-pdCVFUWsxl1A4g0uV6fyJ3nrnTGeWnZN2Tl/56j45UvZ1OMdm9CIbctuIHj+yBIRTUUyv6I9+OivXj4i0LPEYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <style>
+        *{
+            text-align: center;
+        }
+        .parent{
+            max-width: 850px;
+            border-style: dashed;
+            border-width: 1px;
+            margin: 1%;
+            padding: 1%;
+        }
+        table {
+            margin: 1%;
+            border-style: normal;
+            border-width: 1px;
+            min-width: 780px;
+        }
+        td,th{
+            border-style: normal;
+            border-width: 1px;
+            padding: 1%;
+        }
+        input{
+            width: 80%;
+        }
+        input[type=date]{
+            padding: 5px; 
+            border: 1px solid #ccc; margin-bottom: 10px;
+        }
+        select{
+            width: 80%;
+            border-radius: 1px;
+        }
+    </style>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+        </header>
+        <main>
+            <div class="parent">
+                <table>
+                    <tr>
+                        <th colspan="6">DETAILED RISK CONSULTANTS’ INVESTIGATION REPORT CONFIDENTIAL</th>
+                    </tr>
+                    <tr>
+                        <td>REFERENCE NUMBER</td>
+                        <td colspan="5"><input type="text"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>APPLICATION NUMBER</td>
+                        <td colspan="5"><input type="number"></td>
+                    </tr>
+                    <tr>
+                        <td>TYPE OF INVESTIGATION</td>
+                        <td colspan="5">
+                            <select name="investigation_type" id="inv_type">
+                                <option selected disabled>not selected</option>
+                                <option>profile check</option>
+                                <option></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>IN DATE</td>
+                        <td colspan="2"><input type="date"></td>
+                        <td>TIME CASE RECEIVED</td>
+                        <td colspan="2"><input type="time"></td>
+                    </tr>
+                    <!--<tr>
+                        <td>DATE OF INVESTIGATION</td>
+                        <td><input type="text"></td>
+                        <td>TIME OF INVESTIGATION</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>OUT DATE</td>
+                        <td><input type="text"></td>
+                        <td>TAT</td>
+                        <td><input type="text"></td>
+                    </tr>-->
+                </table>
+                <table>
+                    <tr>
+                        <th colspan="9">LIFE ASSURED DETAILS</th>
+                    </tr>
+                    <tr>
+                        <td style="width: 40px;">1</td>
+                        <td colspan="4">Name of LA</td>
+                        <td colspan="4"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td colspan="4">LA’s Date of Birth</td>
+                        <td colspan="4"><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td colspan="4">Qualification Details –LA</td>
+                        <td colspan="4"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td colspan="4">Involved in Politically Exposed Activities (PEP)</td>
+                        <td colspan="4">
+                            <select>
+                                <option selected disabled>not selected</option>
+                                <option>yes</option>
+                                <option>no</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td colspan="4">Policy with any other Life Insurance Company</td>
+                        <td colspan="4">
+                            <select name="other_policies" id="other_policies">
+                                <option selected disabled>not selected</option>
+                                <option>yes</option>
+                                <option>no</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th colspan="9">ADDRESS / RESIDENCE</th>
+                    </tr>
+                    <tr>
+                        <td style="width: 40px;">6</td>
+                        <td colspan="4">Address of LA</td>
+                        <td colspan="4"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td colspan="4">Nearest Landmark</td>
+                        <td colspan="4"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td colspan="4">Type of Residence</td>
+                        <td colspan="4">
+                            <select>
+                                <option selected disabled>not selected</option>
+                                <option>own house</option>
+                                <option>rented</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td colspan="4">Type of Construction</td>
+                        <td colspan="4">
+                            <select>
+                                <option selected disabled>not selected</option>
+                                <option>Society Complex Flat</option>
+                                <option>Single Room</option>
+                                <option>Chawl</option>
+                                <option>Bungalow</option>
+                                <option>Kaccha Hut</option>
+                                <option>Brick House</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th colspan="9">PROFILE OF LA</th>
+                    </tr>
+                    <tr>
+                        <td style="width: 40px;">10</td>
+                        <td colspan="4">Occupation & Employment Details</td>
+                        <td colspan="4"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td colspan="4">Years in Working / Business</td>
+                        <td colspan="4"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td colspan="4">Income / Salary (Per Annum)</td>
+                        <td colspan="4"><input type="text"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th colspan="9">HEALTH DETAILS OF LA</th>
+                    </tr>
+                    <tr>
+                        <td style="width: 40px;">13</td>
+                        <td colspan="4">Physical Appearance of LA</td>
+                        <td colspan="4"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>14</td>
+                        <td colspan="4">Approx. Height & Weight of LA</td>
+                        <td colspan="4"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>15</td>
+                        <td colspan="4">Any Health / Habits advertise (Alcohol, Smoking, Tobacco consumption)</td>
+                        <td colspan="4"><input type="text" placeholder="radio yes no"></td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td colspan="4">Any History of Accident / Hazard caused</td>
+                        <td colspan="4"><input type="text" placeholder="radio yes no"></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th colspan="9">MEDICAL RELATED DETAILS</th>
+                    </tr>
+                    <tr>
+                        <td style="width: 40px;">17 (a)</td>
+                        <td colspan="4">Is the customer taking any medicines/under treatment?</td>
+                        <td colspan="4">
+                            <select name="medication" id="medication">
+                                <option selected disabled>not selected</option>
+                                <option>yes</option>
+                                <option>no</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="illness">
+                        <td>(b)</td>
+                        <td colspan="4">provide illness for which treatment is being taken & since when?</td>
+                        <td colspan="4"><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>18 (a)</td>
+                        <td colspan="4">In the last 5 years, has the customer been hospitalized?</td>
+                        <td colspan="4">
+                            <select name="ever_hospitalized" id="hospitalized">
+                                <option selected disabled>not selected</option>
+                                <option>yes</option>
+                                <option>no</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="hospital_input">
+                        <td>(b)</td>
+                        <td colspan="4"> for what & when</td>
+                        <td colspan="4"><input type="text" placeholder=""></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <th colspan="9">FEMALE LIFE CASES</th>
+                    </tr>
+                    
+                    <tr>
+                        <td style="width: 40px;">19</td>
+                        <td colspan="4">Housewife</td>
+                        <td colspan="4">
+                            <select name="housewife" id="housewife">
+                                <option selected disabled>not selected</option>
+                                <option>yes</option>
+                                <option>no</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td colspan="4">Who would be paying the premium for the policy?</td>
+                        <td colspan="4"><input type="text"></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            $(document).ready(function(){
+                $('#hospital_input').hide();
+                $('#illness').hide();
+                $('#other_policies').change(function(){
+                    if($('#other_policies').val()=='yes'){
+                        $('#other_policies').after(
+                            '<br id="rem1"><input type="text" id="rem2">'
+                        );
+                    }
+                    else {
+                        $('#rem1').remove();
+                        $('#rem2').remove();
+                    }
+                });
+                $('#hospitalized').change(function(){
+                    if($('#hospitalized').val()=='yes'){
+                        $('#hospital_input').show();
+                    }
+                    else {
+                        $('#hospital_input').hide();
+                    }
+                });
+                $('#medication').change(function(){
+                    if($('#medication').val()=='yes'){
+                        $('#illness').show();
+                    }
+                    else {
+                        $('#illness').hide();
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

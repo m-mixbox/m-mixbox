@@ -1,0 +1,12 @@
+<TALLYMESSAGE xmlns:UDF="TallyUDF">
+                    <LEDGER NAME="Repair &amp; Maintainance - Minor Exp" RESERVEDNAME="">                         
+                        <NAME.LIST>
+                            <NAME>Repair &amp; Maintainance - Minor Exp</NAME>
+                        </NAME.LIST>
+                        <ADDITIONALNAME>Repair &amp; Maintainance - Minor Exp</ADDITIONALNAME>
+                        <PARENT>Indirect Expenses</PARENT>
+                        <ISBILLWISEON>No</ISBILLWISEON>
+                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
+                        <SERVICECATEGORY/>
+                    </LEDGER>
+                </TALLYMESSAGE>

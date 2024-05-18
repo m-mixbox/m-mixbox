@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+<body>
+
+  <span id="results"><svg height="1400" width="1000">
+  <path d="M 0 1300  500 1300 C 650 1300, 600 1250, 700 1250 L 1000 1250 V 1400 L 0 1400 V 1300" stroke="black" fill="BLACK"/>
+  
+  Sorry, your browser does not support inline SVG.
+</svg></span>
+<button id="print">print</button>
+<input  id="value">
+<div id="result"></div>
+</body>
+<script>
+  $(document).ready(function(){
+    console.log('page is ready');
+
+  //value change
+  $("#value").change(function show()
+  {
+    let text = document.getElementById("value").value;
+    document.getElementById("result").innerHTML = text;
+  });
+    //generate pdf
+  $("#print").click(function(){
+  console.log('printing has started........');
+  var element = document.getElementById('results');
+  var opt = {
+  margin:       1,
+  jsPDF: {
+    format: 'a4'
+  },
+  filename:     'myfile.pdf',
+  image:        { type: 'jpeg', quality: 0.98 },
+  html2canvas:  { scale: 2 },
+  jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' },
+  pagebreak: { mode: 'avoid-all'   }
+  };
+  html2pdf().set(opt).from(element).save();
+  console.log('printing ended........');
+  });
+  });
+</script>
+</html>

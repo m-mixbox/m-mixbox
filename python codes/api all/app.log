@@ -1,0 +1,32 @@
+2024-02-15 15:24:56,235 - main - DEBUG - api started
+2024-02-15 15:47:27,138 - main - DEBUG - /image/ endpoint accessed
+2024-02-15 15:47:27,138 - main - DEBUG - Received file: photo_6154231284247935751_x.jpg
+2024-02-15 15:51:45,086 - main - DEBUG - api started
+2024-02-15 15:54:10,476 - main - DEBUG - /image/ endpoint accessed
+2024-02-15 15:54:10,476 - main - DEBUG - Received file: C:/Users/MBSPL-Ayush/Desktop/photo_6154231284247935751_x.jpg
+2024-02-15 15:54:10,837 - main - DEBUG - Sent file: 2024-02-15____15-54-10.docx
+2024-02-15 15:56:18,923 - main - DEBUG - /image/ endpoint accessed
+2024-02-15 15:56:18,923 - main - DEBUG - Received file: C:/Users/MBSPL-Ayush/Desktop/photo_6154231284247935751_x.jpg
+2024-02-15 15:56:19,190 - main - DEBUG - Sent file: 2024-02-15____15-56-19.docx
+2024-02-15 15:59:04,678 - main - DEBUG - /image/ endpoint accessed
+2024-02-15 15:59:04,678 - main - DEBUG - Received file: C:/Users/MBSPL-Ayush/Desktop/photo_6154231284247935751_x.jpg
+2024-02-15 15:59:04,961 - main - DEBUG - Sent file: 2024-02-15____15-59-4.docx
+2024-04-18 17:22:50,799 - main - DEBUG - api started
+2024-04-18 17:28:26,543 - main - DEBUG - /excel/ endpoint accessed
+2024-04-18 17:28:26,543 - main - DEBUG - Received file: tally.xlsx
+2024-04-18 17:28:38,567 - main - DEBUG - Sent file: 2024-04-18___17_28_38.xml
+2024-04-18 17:39:11,228 - main - DEBUG - /excel/ endpoint accessed
+2024-04-18 17:39:11,228 - main - DEBUG - Received file: tally.xlsx
+2024-04-18 17:39:20,435 - main - DEBUG - Sent file: 2024-04-18___17_39_20.xml
+2024-04-19 10:06:26,182 - main - DEBUG - /excel/ endpoint accessed
+2024-04-19 10:06:26,182 - main - DEBUG - Received file: tally.xlsx
+2024-04-19 10:06:38,435 - main - DEBUG - Sent file: 2024-04-19___10_6_38.xml
+2024-04-19 10:20:41,990 - main - DEBUG - api started
+2024-04-19 10:29:50,749 - main - DEBUG - /excel/ endpoint accessed
+2024-04-19 10:29:50,755 - main - DEBUG - Received file: tally2.xlsx
+2024-04-19 10:30:01,687 - main - DEBUG - Sent file: 2024-04-19___10_30_1.xml
+2024-04-19 10:45:40,719 - main - DEBUG - api started
+2024-04-19 10:46:26,677 - main - DEBUG - api started
+2024-04-19 11:06:59,423 - main1 - DEBUG - api started
+2024-04-19 11:07:55,047 - main1 - DEBUG - api started
+2024-04-19 11:37:59,080 - main1 - DEBUG - api started

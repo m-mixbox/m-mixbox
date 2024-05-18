@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">    
+    
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href=""
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href=""
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href=""
+    />
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js">
+	  </script>
+    
+    <title>mixbox solutions Landing Page</title>
+  </head>
+
+  <body onload="GFG()">
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid d-flex">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">
+            <!--<span class="mixbox">Mixbox</span><span class="solutions">Solutions</span>-->
+            <span class="fist"><img src="assets\images\Logo.png" height="40" width="200"></span>
+          </a>
+        </div>
+
+      <!--nav links-->
+      <ul class="nav nav-pills">
+        <li  class="active" role="presentation" class="nav-item">
+          <a href="#home"  class="nav-link"   >Home</a>
+        </li>
+        <li  role="presentation" class="nav-item">
+          <a href="#about"   class="nav-link"  >Products</a>
+        </li>
+        <li  role="presentation" class="nav-item">
+          <a href="#contact-us"   class="nav-link"  >Contact Us</a>
+        </li>
+        <li  role="presentation" class="nav-item">
+          <a href="#stakeholders"   class="nav-link"  >Privacy Policy</a>
+        </li>
+        <li  role="presentation" class="nav-item">
+          <a href="#sub"   class="nav-link"  >Subscribe</a>
+        </li>
+      </ul>
+
+      <!-- Bars -->
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      </div>
+    </nav>
+
+    <!-- moto/pen phrase + marketing terms section -->
+    <section class="container " id="home">
+      <div class="intro-text">
+        <h1>
+          <span class="hear">Shop Smart, Shop Local</span> <br />
+          <span class="connecting"> We've Got You Covered.</span>
+        </h1>
+        <p>
+          Get the most out of your tech with our wide selection of laptops and PC parts. <br>
+          Whether you're a hardcore gamer, a creative professional, or <br>
+          just need a reliable machine for everyday tasks, we have something for everyone.<br />
+          We also dedicate some special time to throwbacks cuz old is gold.<br>
+        </p>
+        <button class="btn btn-primary" href="#sub">Subscribe</button>
+      </div>
+      
+      <!--<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets\images\computer-1846056_1280.jpg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets\images\computer-1846056_1280.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets\images\computer-1846056_1280.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>-->
+    </section>
+
+    <!-- About section -->
+    <section class="container " id="about">
+      <h3>Unlock Your Laptop's Potential: Upgrade with Us.</h3>
+      <p>
+        Get the most out of your tech with our wide selection of laptops and PC parts.
+      </p>
+
+      <h3>Fast & Affordable Laptop Repairs</h3>
+      <p>
+        From cracked screens to sluggish performance, we offer expert repairs for all your laptop and PC needs. 
+      </p>
+    </section>
+
+    <!-- contact us -->
+    <section class="contact-us" id="contact-us">
+      <div class="row justify-content-md-center">
+
+        <!--qr code generator-->
+        <!--<div class="col-md-auto" id="qrcode"><div id="qrcode"></div></div>-->
+        
+        <!--google map-->
+        <!--<div id="MAP" style="width:400px;height:400px;">-->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3662.4652013164045!2d85.33418517501336!3d23.37138230322203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f4e17262a25efb%3A0xb84df0bec273551a!2sSri%20Kali%20Apartment%2C%20Hazaribag%20Rd%2C%20Lalpur%2C%20Ranchi%2C%20Jharkhand%20834001!5e0!3m2!1sen!2sin!4v1702534563572!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- mixbox solutions Stakeholders -->
+    <section class="people" id="stakeholders">
+      <!--<div class="stakeholders">
+        <div class="persons">
+          <div class="person-1">
+            <img src="assets/images/john.jpg" alt="John Doe" />
+            <p class="name">John Doe</p>
+            <p class="role">Founder</p>
+          </div>
+          <div class="person-2">
+            <img src="assets/images/jane.jpg" alt="Jane Doe" />
+            <p class="name">Jane Doe</p>
+            <p class="role">MD</p>
+          </div>
+          <div class="person-3">
+            <img src="assets/images/jnr.jpg" alt="John Doe Jnr" />
+            <p class="name">John Doe JNR</p>
+            <p class="role">Head Analyst</p>
+          </div>
+        </div>
+      </div>-->
+    </section>
+
+    <!-- Email subscription -->
+    <section class="sub" id="sub">
+      <h3>Subscribe to our newsletter for updates</h3>
+      <form action="#">
+        <div class="input-group mb-3 justify-content-center">
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Your Email"
+            id="email-sub"
+            class=""
+            required
+          />
+          <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn btn btn-primary"
+        />
+        </div>
+      </form>
+    </section>
+
+    
+    
+
+    <!-- Social icons -->
+    <section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+    </section>
+
+    
+    <!-- Wave SVG Animation -->
+  <!--<div class="waves fixed-bottom">
+    <svg width="100%" height="200px" fill="none" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#00B4DB" />
+        <stop offset="50%" stop-color="#224488" />
+        <stop offset="100%" stop-color="#0083B0" />
+      </linearGradient>
+      <path 
+        fill="url(#grad1)" 
+        d="
+          M0 67
+          C 273,183
+            822,-40
+            1920.00,106 
+          
+          V 359 
+          H 0 
+          V 67
+          Z">
+        <animate 
+          repeatCount="indefinite" 
+          fill="url(#grad1)" 
+          attributeName="d" 
+          dur="15s"
+          attributeType="XML"
+          values="
+            M0 77 
+            C 473,283
+              822,-40
+              1920,116 
+            
+            V 359 
+            H 0 
+            V 67 
+            Z; 
+
+            M0 77 
+            C 473,-40
+              1222,283
+              1920,136 
+            
+            V 359 
+            H 0 
+            V 67 
+            Z; 
+
+            M0 77 
+            C 973,260
+              1722,-53
+              1920,120 
+            
+            V 359 
+            H 0 
+            V 67 
+            Z; 
+
+            M0 77 
+            C 473,283
+              822,-40
+              1920,116 
+            
+            V 359 
+            H 0 
+            V 67 
+            Z
+            ">
+        </animate>
+      </path>
+    </svg>
+  </div>-->
+    
+    <footer>&copy;2020. All Rights Reserverd</footer>
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.png"
+        class="socicon up-arrow"
+        alt="up-arrow"
+    /></i>
+
+    
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+    <script src="assets/js/simple-lightbox.min.js"></script>
+    <!--<script>
+      var lightbox = new SimpleLightbox(".stars-gallery a");
+    </script>-->
+    
+    <!--<script>
+      var qrcode = new QRCode("qrcode",
+      "https://drive.google.com/file/d/1tkYYP0psBB0OH5c5zUd4x2h2vBfR1hUz/view?usp=drive_link");
+    </script>-->
+  </body>
+</html>

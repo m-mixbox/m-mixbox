@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+    <ENVELOPE>
+        <HEADER>
+            <TALLYREQUEST>Import Data</TALLYREQUEST>
+        </HEADER>
+
+        <BODY>
+        <IMPORTDATA>
+
+            <REQUESTDESC>
+                <REPORTNAME>All Masters</REPORTNAME>
+                <STATICVARIABLES>
+                    <SVCURRENTCOMPANY>MBSPL</SVCURRENTCOMPANY>
+                </STATICVARIABLES>
+            </REQUESTDESC>
+
+            <REQUESTDATA>
+                <TALLYMESSAGE xmlns:UDF="TallyUDF">
+                    <LEDGER NAME="Repair & Maintainance - Minor Exp" RESERVEDNAME="">                         
+                        <NAME.LIST>
+                            <NAME>Repair & Maintainance - Minor Exp</NAME>
+                        </NAME.LIST>
+                        <ADDITIONALNAME>Repair & Maintainance - Minor Exp</ADDITIONALNAME>
+                        <PARENT>Indirect Expenses</PARENT>
+                        <ISBILLWISEON>No</ISBILLWISEON>
+                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
+                        <SERVICECATEGORY/>
+                    </LEDGER>
+                </TALLYMESSAGE>
+                
+                <TALLYMESSAGE xmlns:UDF="TallyUDF">
+                    <LEDGER NAME="Repair & Maintainance - Major Exp" RESERVEDNAME="">                         
+                        <NAME.LIST>
+                            <NAME>Repair & Maintainance - Major Exp</NAME>
+                        </NAME.LIST>
+                        <ADDITIONALNAME>Repair & Maintainance - Major Exp</ADDITIONALNAME>
+                        <PARENT>Indirect Expenses</PARENT>
+                        <ISBILLWISEON>No</ISBILLWISEON>
+                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
+                        <SERVICECATEGORY/>
+                    </LEDGER>
+                </TALLYMESSAGE>
+                
+                </REQUESTDATA>
+        </IMPORTDATA>
+    </BODY>
+    </ENVELOPE>

@@ -1,0 +1,33 @@
+form {
+    margin:10px;
+}
+label {
+    margin-top: 5px;
+}
+input {
+    border-radius: 4;
+    
+}
+/*button {
+    margin: 0px 20px;
+}*/
+span {
+    font-weight: bold;
+}
+i {
+    font-weight: bold;
+}
+.hidden {
+    text-align: justify; 
+    text-justify: inter-word;
+}
+#terms{
+    page-break-inside: auto;
+    break-inside: auto;
+}
+/*#page_break_after {
+    page-break-after: always;
+}*/
+/*.page_break_before {
+    page-break-before: always;
+}*/
