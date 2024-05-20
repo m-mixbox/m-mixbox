@@ -1,0 +1,99 @@
+^Annual Tax Statement^
+
+File Creation Date^Permanent Account Number (PAN)^Current Status of PAN^Financial Year^Assessment Year^Name of Assessee^Address Line 1^Address Line 2^Address Line 3^Address Line 4^Address Line 5^Statecode^Pin Code
+20-05-2024^AAICV0950D^ACTIVE^2023-2024^2024-2025^VARIANT INVESTIGATION SERVICES PRIVATE LIMITED^C/O SMT PRATIMA DEVI, 215^1, B4^SHREYA ENCLAVE ROAD, BARI^ATU, KOK-2(BAT)^RANCHI, RANCHI^JHARKHAND^834009
+
+^PART-I - Details of Tax Deducted at Source^
+Sr. No.^Name of Deductor^TAN of Deductor^^^^^Total Amount Paid / Credited(Rs.)^Total Tax Deducted(Rs.)^Total TDS Deposited(Rs.)
+1^ADITYA BIRLA SUN LIFE INSURANCE COMPANY LIMITED^MUMB08828B^^^^^653000.00^65300.00^65300.00^
+^Sr. No.^Section^Transaction Date^Status of Booking^Date of Booking^Remarks^Amount Paid / Credited(Rs.)^Tax Deducted(Rs.)^TDS Deposited(Rs.)
+^1^194JB^12-Nov-2023^F^05-Feb-2024^-^632000.00^63200.00^63200.00^
+^2^194JB^25-Aug-2023^F^05-Nov-2023^-^21000.00^2100.00^2100.00^
+
+2^RELIANCE NIPPON LIFE INSURANCE COMPANY LIMITED^MUMR22066C^^^^^46000.00^9200.00^9200.00^
+^Sr. No.^Section^Transaction Date^Status of Booking^Date of Booking^Remarks^Amount Paid / Credited(Rs.)^Tax Deducted(Rs.)^TDS Deposited(Rs.)
+^1^194JB^16-Oct-2023^F^01-Feb-2024^-^46000.00^9200.00^9200.00^
+
+3^SBI LIFE INSURANCE COMPANY LTD^MUMS27599F^^^^^795000.00^159000.00^159000.00^
+^Sr. No.^Section^Transaction Date^Status of Booking^Date of Booking^Remarks^Amount Paid / Credited(Rs.)^Tax Deducted(Rs.)^TDS Deposited(Rs.)
+^1^194JB^19-Oct-2023^O^30-Jan-2024^-^255000.00^51000.00^51000.00^
+^2^194JB^11-Oct-2023^F^30-Jan-2024^-^166000.00^33200.00^33200.00^
+^3^194JB^07-Aug-2023^F^31-Oct-2023^-^105000.00^21000.00^21000.00^
+^4^194JB^21-Jul-2023^F^31-Oct-2023^-^102000.00^20400.00^20400.00^
+^5^194JB^05-Jun-2023^F^27-Sep-2023^-^57000.00^11400.00^11400.00^
+^6^194JB^18-May-2023^F^27-Sep-2023^-^110000.00^22000.00^22000.00^
+
+4^BAJAJ ALLIANZ LIFE INSURANCE COMPANY LIMITED^PNEA03242B^^^^^784000.00^146880.00^146880.00^
+^Sr. No.^Section^Transaction Date^Status of Booking^Date of Booking^Remarks^Amount Paid / Credited(Rs.)^Tax Deducted(Rs.)^TDS Deposited(Rs.)
+^1^194JB^28-Dec-2023^F^06-Feb-2024^-^1400.00^140.00^140.00^
+^2^194JB^26-Dec-2023^F^06-Feb-2024^-^9100.00^910.00^910.00^
+^3^194JB^26-Dec-2023^F^06-Feb-2024^-^44300.00^4430.00^4430.00^
+^4^194JB^21-Dec-2023^F^06-Feb-2024^-^33900.00^3390.00^3390.00^
+^5^194JB^01-Dec-2023^F^06-Feb-2024^-^1400.00^140.00^140.00^
+^6^194JB^29-Nov-2023^F^06-Feb-2024^-^9100.00^910.00^910.00^
+^7^194JB^16-Oct-2023^F^06-Feb-2024^-^26400.00^5280.00^5280.00^
+^8^194JB^13-Oct-2023^F^06-Feb-2024^-^14700.00^2940.00^2940.00^
+^9^194JB^30-Sep-2023^F^06-Nov-2023^-^4900.00^980.00^980.00^
+^10^194JB^23-Sep-2023^F^06-Nov-2023^-^26600.00^5320.00^5320.00^
+^11^194JB^23-Sep-2023^F^06-Nov-2023^-^60200.00^12040.00^12040.00^
+^12^194JB^02-Sep-2023^F^06-Nov-2023^-^1400.00^280.00^280.00^
+^13^194JB^22-Aug-2023^F^06-Nov-2023^-^15400.00^3080.00^3080.00^
+^14^194JB^21-Aug-2023^F^06-Nov-2023^-^26400.00^5280.00^5280.00^
+^15^194JB^25-Jul-2023^F^06-Nov-2023^-^6300.00^1260.00^1260.00^
+^16^194JB^19-Jul-2023^F^06-Nov-2023^-^166700.00^33340.00^33340.00^
+^17^194JB^19-Jul-2023^F^06-Nov-2023^-^6300.00^1260.00^1260.00^
+^18^194JB^29-Jun-2023^F^30-Sep-2023^-^5600.00^1120.00^1120.00^
+^19^194JB^28-Jun-2023^F^30-Sep-2023^-^42200.00^8440.00^8440.00^
+^20^194JB^28-Jun-2023^F^30-Sep-2023^-^25100.00^5020.00^5020.00^
+^21^194JB^26-Jun-2023^F^30-Sep-2023^-^14700.00^2940.00^2940.00^
+^22^194JB^23-Jun-2023^F^30-Sep-2023^-^14300.00^2860.00^2860.00^
+^23^194JB^23-Jun-2023^F^30-Sep-2023^-^128300.00^25660.00^25660.00^
+^24^194JB^03-Jun-2023^F^30-Sep-2023^-^10500.00^2100.00^2100.00^
+^25^194JB^28-Apr-2023^F^30-Sep-2023^-^28000.00^5600.00^5600.00^
+^26^194JB^26-Apr-2023^F^30-Sep-2023^-^23700.00^4740.00^4740.00^
+^27^194JB^26-Apr-2023^F^30-Sep-2023^-^16100.00^3220.00^3220.00^
+^28^194JB^22-Apr-2023^F^30-Sep-2023^-^20300.00^4060.00^4060.00^
+^29^194JB^22-Apr-2023^F^30-Sep-2023^-^700.00^140.00^140.00^
+
+
+^PART-II - Details of Tax Deducted at Source for 15G / 15H^
+Sr. No.^Name of Deductor^TAN of Deductor^^^^Total Amount Paid / Credited(Rs.)^Total Tax Deducted(Rs.)^Total TDS Deposited(Rs.)
+^^^*********** No Transactions Present **********^
+
+
+^PART-III - Details of Transactions under Proviso to section 194B/First Proviso to sub-section (1) of section 194R/ Proviso to sub-section(1) of section 194S/Sub-section (2) of section 194BA
+Sr. No.^Name of Deductor^TAN of Deductor^^^^^Total Amount Paid / Credited(Rs.)
+^^^*********** No Transactions Present **********^
+
+
+^PART-IV - Details of Tax Deducted at Source  u/s 194IA/ 194IB /  194M/  194S (For Seller/Landlord of Property/Contractors or professionals/ Seller of Virtual Digital Asset)^
+Sr. No.^Acknowledgement Number^Name of Deductor^PAN of Deductor^Transaction Date^Total Transaction Amount(Rs.)^Total TDS Deposited(Rs.)
+^^^*********** No Transactions Present **********^
+
+^PART-V - : Details of Transactions under Proviso to sub-section(1) of section 194S as per Form-26QE (For Seller of Virtual Digital Asset)^
+Sr. No.^Acknowledgement Number^Name of Buyer^PAN of Buyer^Transaction Date^Total Transaction Amount(Rs.)
+^^^*********** No Transactions Present **********^
+
+^PART-VI - Details of Tax Collected at Source^
+Sr. No.^Name of Collector^TAN of Collector^^^^^Total Amount Paid / Debited(Rs.)^Total Tax Collected(Rs.)^Total TCS Deposited(Rs.)
+^^^*********** No Transactions Present **********^
+
+
+^PART-VII - Details of Paid Refund (For which source is CPC TDS. For other details refer AIS at E-filing portal)^
+Sr. No.^Assessment Year^Mode^Refund Issued^Nature of Refund^Amount of Refund(Rs.)^Interest(Rs.)^Date of Payment^Remarks
+^^^*********** No Transactions Present **********^
+
+
+^PART-VIII - Details of Tax Deducted at Source  u/s 194IA/ 194IB /194M/194S (For Buyer/Tenant of Property /Person making payment to contractors or Professionals/Buyer of Virtual Digital Asset)^
+Sr. No.^Acknowledgement Number^Name of Deductee^PAN of Deductee^Transaction Date^Total Transaction Amount(Rs.)^Total TDS Deposited(Rs.)^Total Amount Deposited other than TDS(Rs.)
+^^^*********** No Transactions Present **********^
+
+^PART-IX -Details of Transactions/Demand Payments under Proviso to sub-section(1) of section 194S as per Form 26QE (For Buyer of Virtual Digital Asset)^
+Sr. No.^Acknowledgement Number^Name of Seller^PAN of Seller^Transaction Date^Total Transaction Amount(Rs.)^Total Amount Deposited other than TDS(Rs.)
+^^^*********** No Transactions Present **********^
+
+^PART-X - TDS/TCS Defaults* (Processing of Statements)^
+Sr. No.^Financial Year^Short Payment^Short Deduction/Collection^Interest on TDS/TCS Payments default^Interest on TDS/TCS Deduction/Collection Default^Late Filing Fee u/s 234E^Interest u/s 220(2)^Total Default
+^^^*********** No Transactions Present **********^
+
+
