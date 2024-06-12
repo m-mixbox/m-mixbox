@@ -1,0 +1,66 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "\u00a9 OpenStreetMap contributors",
+                    "license": "Open Database License",
+                    "url": "https://www.openstreetmap.org/copyright"
+                },
+                "country": "India",
+                "country_code": "in",
+                "state": "Jharkhand",
+                "state_district": "Ranchi District",
+                "county": "Kanke",
+                "city": "Ranchi",
+                "postcode": "834002",
+                "road": "Ranchi",
+                "lon": 85.3244798,
+                "lat": 23.3477399,
+                "state_code": "JH",
+                "distance": 7.670636740067353,
+                "result_type": "postcode",
+                "formatted": "Ranchi - 834002, JH, India",
+                "address_line1": "Ranchi - 834002",
+                "address_line2": "JH, India",
+                "timezone": {
+                    "name": "Asia/Kolkata",
+                    "offset_STD": "+05:30",
+                    "offset_STD_seconds": 19800,
+                    "offset_DST": "+05:30",
+                    "offset_DST_seconds": 19800,
+                    "abbreviation_STD": "IST",
+                    "abbreviation_DST": "IST"
+                },
+                "plus_code": "7MM788XF+3Q",
+                "plus_code_short": "88XF+3Q Ranchi, Kanke, India",
+                "rank": {
+                    "importance": 0.10000999999999993,
+                    "popularity": 1.4412922761891576
+                },
+                "place_id": "519c4dec46c454554059aa036a7b05593740f00102f9011627c71e00000000c002079203093833343030322b696e"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.3244798,
+                    23.3477399
+                ]
+            },
+            "bbox": [
+                85.3244087,
+                23.3471029,
+                85.3245271,
+                23.3482722
+            ]
+        }
+    ],
+    "query": {
+        "lat": 23.3472,
+        "lon": 85.3245952,
+        "plus_code": "7MM788WF+VR"
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+    <ENVELOPE>
+        <HEADER>
+            <TALLYREQUEST>Import Data</TALLYREQUEST>
+        </HEADER>
+
+        <BODY>
+        <IMPORTDATA>
+
+            <REQUESTDESC>
+                <REPORTNAME>All Masters</REPORTNAME>
+                <STATICVARIABLES>
+                    <SVCURRENTCOMPANY>MBSPL</SVCURRENTCOMPANY>
+                </STATICVARIABLES>
+            </REQUESTDESC>
+            <REQUESTDATA>
+            </REQUESTDATA>
+
+            
+        </IMPORTDATA>
+    </BODY>
+    </ENVELOPE>

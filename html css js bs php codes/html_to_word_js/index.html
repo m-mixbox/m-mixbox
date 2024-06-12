@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML to Word Converter</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #content { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Title</h1>
+        <p>This is a paragraph.</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </div>
+    <button id="download">Download as Word</button>
+
+    <!-- Include the html-docx-js library via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/html-docx-js@0.3.1/dist/html-docx.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    
+    <script>
+        document.getElementById('download').addEventListener('click', function() {
+            var content = document.getElementById('content').innerHTML;
+            var htmlData = '<!DOCTYPE html><html><head><meta charset="utf-8"><title>HTML to Word</title></head><body>' + content + '</body></html>';
+            var converted = htmlDocx.asBlob(htmlData);
+            saveAs(converted, 'document.docx');
+        });
+    </script>
+</body>
+</html>

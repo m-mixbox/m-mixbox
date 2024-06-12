@@ -63,7 +63,8 @@ def read_excel(excel_path):
 def convert_date_format(date):
     date_organised = []
     for i in date :
-        a,b = str(i).split(' ')
+        print(i)
+        a = str(i).split(' ')[0]
         date_organised.append(a.replace('-','')) 
     return date_organised
 
@@ -94,7 +95,7 @@ def xml_data(excel_path):
                         filename_list = []
                         for i in range(len(amount_list)):
                             amount_list_count.append(len(amount_list[i]))
-                        date = convert_date_format(date_unorganised)
+                        #date = convert_date_format(date_unorganised)
                         
                         i=0
                         
@@ -105,7 +106,7 @@ def xml_data(excel_path):
                             j=0
                             while(j+1 <= len(amount_list[i])):
                                     #print(j)
-                                    xmldata = os.path.join(os.path.dirname(__file__),"ledger.xml")
+                                    xmldata = os.path.join(os.path.dirname(__file__),"res/ledger.xml")
                                     tree2 = ElementTree()
                                     tree2.parse(xmldata) 
                                     ledger_entry_data = tree2.getroot()
@@ -136,11 +137,11 @@ def xml_data(excel_path):
 def xml_generater(excel_path,save_path):
     filename,[company_list,amount_list,narration,date_unorganised,voucher_type,voucher_number] = xml_data(excel_path)
     date_time = convert_date_format(date_unorganised)
-    xmldata_req = os.path.join(os.path.dirname(__file__),"request_data.xml" )
+    xmldata_req = os.path.join(os.path.dirname(__file__),"res/request_data.xml" )
     tree1 = ElementTree()
     tree1.parse(xmldata_req) 
     request_data = tree1.getroot()
-    xmldata_raw = os.path.join(os.path.dirname(__file__),"tally_raw.xml" )
+    xmldata_raw = os.path.join(os.path.dirname(__file__),"res/tally_raw.xml" )
     prstree = ElementTree()
     prstree.parse(xmldata_raw) 
     root = prstree.getroot()
@@ -148,7 +149,7 @@ def xml_generater(excel_path,save_path):
     for import_data in root.iter('IMPORTDATA'):
         k=0
         for i in range(len(amount_list)):
-            xmldata = os.path.join(os.path.dirname(__file__),"request_data.xml" )
+            xmldata = os.path.join(os.path.dirname(__file__),"res/request_data.xml" )
             tree1 = ElementTree()
             tree1.parse(xmldata) 
             request_data = tree1.getroot()
