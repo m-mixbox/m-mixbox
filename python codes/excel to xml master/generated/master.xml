@@ -14,716 +14,111 @@
             </REQUESTDESC>
             <REQUESTDATA>
             <TALLYMESSAGE>
-                    <LEDGER NAME="SIGN-O-ART" RESERVEDNAME="">                         
+                    <LEDGER NAME="Salary-Anupam Sinha" RESERVEDNAME="">                         
                         <NAME.LIST>
-                            <NAME>SIGN-O-ART</NAME>
+                            <NAME>Salary-Anupam Sinha</NAME>
                         </NAME.LIST>
-                        <ADDITIONALNAME>SIGN-O-ART</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
+                        <ADDITIONALNAME>Salary-Anupam Sinha</ADDITIONALNAME>
+                        <PARENT>Salary</PARENT>
                         <ISBILLWISEON>No</ISBILLWISEON>
                         <AFFECTSSTOCK>No</AFFECTSSTOCK>
                         <SERVICECATEGORY />
                     </LEDGER>
                 </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="TIRUPATI ESTATES" RESERVEDNAME="">                         
+                    <LEDGER NAME="Salary-Rakesh Kumar" RESERVEDNAME="">                         
                         <NAME.LIST>
-                            <NAME>TIRUPATI ESTATES</NAME>
+                            <NAME>Salary-Rakesh Kumar</NAME>
                         </NAME.LIST>
-                        <ADDITIONALNAME>TIRUPATI ESTATES</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
+                        <ADDITIONALNAME>Salary-Rakesh Kumar</ADDITIONALNAME>
+                        <PARENT>Salary</PARENT>
                         <ISBILLWISEON>No</ISBILLWISEON>
                         <AFFECTSSTOCK>No</AFFECTSSTOCK>
                         <SERVICECATEGORY />
                     </LEDGER>
                 </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="Neon media ventures" RESERVEDNAME="">                         
+                    <LEDGER NAME="Salary-Rani" RESERVEDNAME="">                         
                         <NAME.LIST>
-                            <NAME>Neon media ventures</NAME>
+                            <NAME>Salary-Rani</NAME>
                         </NAME.LIST>
-                        <ADDITIONALNAME>Neon media ventures</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
+                        <ADDITIONALNAME>Salary-Rani</ADDITIONALNAME>
+                        <PARENT>Salary</PARENT>
                         <ISBILLWISEON>No</ISBILLWISEON>
                         <AFFECTSSTOCK>No</AFFECTSSTOCK>
                         <SERVICECATEGORY />
                     </LEDGER>
                 </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="BRIGHT SIGN" RESERVEDNAME="">                         
+                    <LEDGER NAME="Salary-Arpit" RESERVEDNAME="">                         
                         <NAME.LIST>
-                            <NAME>BRIGHT SIGN</NAME>
+                            <NAME>Salary-Arpit</NAME>
                         </NAME.LIST>
-                        <ADDITIONALNAME>BRIGHT SIGN</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
+                        <ADDITIONALNAME>Salary-Arpit</ADDITIONALNAME>
+                        <PARENT>Salary</PARENT>
                         <ISBILLWISEON>No</ISBILLWISEON>
                         <AFFECTSSTOCK>No</AFFECTSSTOCK>
                         <SERVICECATEGORY />
                     </LEDGER>
                 </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="A.G.ENTERPRISES" RESERVEDNAME="">                         
+                    <LEDGER NAME="Salary-Mariam" RESERVEDNAME="">                         
                         <NAME.LIST>
-                            <NAME>A.G.ENTERPRISES</NAME>
+                            <NAME>Salary-Mariam</NAME>
                         </NAME.LIST>
-                        <ADDITIONALNAME>A.G.ENTERPRISES</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
+                        <ADDITIONALNAME>Salary-Mariam</ADDITIONALNAME>
+                        <PARENT>Salary</PARENT>
                         <ISBILLWISEON>No</ISBILLWISEON>
                         <AFFECTSSTOCK>No</AFFECTSSTOCK>
                         <SERVICECATEGORY />
                     </LEDGER>
                 </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="A L CHAUDHRY &amp; CO" RESERVEDNAME="">                         
+                    <LEDGER NAME="Salary-Binod Kumar" RESERVEDNAME="">                         
                         <NAME.LIST>
-                            <NAME>A L CHAUDHRY &amp; CO</NAME>
+                            <NAME>Salary-Binod Kumar</NAME>
                         </NAME.LIST>
-                        <ADDITIONALNAME>A L CHAUDHRY &amp; CO</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
+                        <ADDITIONALNAME>Salary-Binod Kumar</ADDITIONALNAME>
+                        <PARENT>Salary</PARENT>
                         <ISBILLWISEON>No</ISBILLWISEON>
                         <AFFECTSSTOCK>No</AFFECTSSTOCK>
                         <SERVICECATEGORY />
                     </LEDGER>
                 </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="SUFAL COMMERCIAL PRIVATE LIMITED" RESERVEDNAME="">                         
+                    <LEDGER NAME="Salary-Sunil " RESERVEDNAME="">                         
                         <NAME.LIST>
-                            <NAME>SUFAL COMMERCIAL PRIVATE LIMITED</NAME>
+                            <NAME>Salary-Sunil </NAME>
                         </NAME.LIST>
-                        <ADDITIONALNAME>SUFAL COMMERCIAL PRIVATE LIMITED</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
+                        <ADDITIONALNAME>Salary-Sunil </ADDITIONALNAME>
+                        <PARENT>Salary</PARENT>
                         <ISBILLWISEON>No</ISBILLWISEON>
                         <AFFECTSSTOCK>No</AFFECTSSTOCK>
                         <SERVICECATEGORY />
                     </LEDGER>
                 </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="HYACINTH PRODUCTS LLP" RESERVEDNAME="">                         
+                    <LEDGER NAME="Salary-Chandan Mishra" RESERVEDNAME="">                         
                         <NAME.LIST>
-                            <NAME>HYACINTH PRODUCTS LLP</NAME>
+                            <NAME>Salary-Chandan Mishra</NAME>
                         </NAME.LIST>
-                        <ADDITIONALNAME>HYACINTH PRODUCTS LLP</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
+                        <ADDITIONALNAME>Salary-Chandan Mishra</ADDITIONALNAME>
+                        <PARENT>Salary</PARENT>
                         <ISBILLWISEON>No</ISBILLWISEON>
                         <AFFECTSSTOCK>No</AFFECTSSTOCK>
                         <SERVICECATEGORY />
                     </LEDGER>
                 </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="MAHALAXMI FLEXIBLE PACKAGING" RESERVEDNAME="">                         
+                    <LEDGER NAME="Salary-Arti Mishra" RESERVEDNAME="">                         
                         <NAME.LIST>
-                            <NAME>MAHALAXMI FLEXIBLE PACKAGING</NAME>
+                            <NAME>Salary-Arti Mishra</NAME>
                         </NAME.LIST>
-                        <ADDITIONALNAME>MAHALAXMI FLEXIBLE PACKAGING</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
+                        <ADDITIONALNAME>Salary-Arti Mishra</ADDITIONALNAME>
+                        <PARENT>Salary</PARENT>
                         <ISBILLWISEON>No</ISBILLWISEON>
                         <AFFECTSSTOCK>No</AFFECTSSTOCK>
                         <SERVICECATEGORY />
                     </LEDGER>
                 </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="SUBHANI ENTERPRISE" RESERVEDNAME="">                         
+                    <LEDGER NAME="Rent" RESERVEDNAME="">                         
                         <NAME.LIST>
-                            <NAME>SUBHANI ENTERPRISE</NAME>
+                            <NAME>Rent</NAME>
                         </NAME.LIST>
-                        <ADDITIONALNAME>SUBHANI ENTERPRISE</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="THE PIONEER PEST SOLUTION" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>THE PIONEER PEST SOLUTION</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>THE PIONEER PEST SOLUTION</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="ASSOCIATED ROAD CARRIERS LIMITED" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>ASSOCIATED ROAD CARRIERS LIMITED</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>ASSOCIATED ROAD CARRIERS LIMITED</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="CYGNUS APPAREL PRIVATE LIMITED" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>CYGNUS APPAREL PRIVATE LIMITED</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>CYGNUS APPAREL PRIVATE LIMITED</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="LAPLIANT" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>LAPLIANT</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>LAPLIANT</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="BIO CARE ENTERPRISES" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>BIO CARE ENTERPRISES</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>BIO CARE ENTERPRISES</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="ARIHANT ENTERPRISES" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>ARIHANT ENTERPRISES</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>ARIHANT ENTERPRISES</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="ADITYA MOTORS" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>ADITYA MOTORS</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>ADITYA MOTORS</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="GIVE MY ADD" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>GIVE MY ADD</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>GIVE MY ADD</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="TCI FREIGHT (A DIVISION OF TRANSPORT CORP. OF INDIA LIMITED)" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>TCI FREIGHT (A DIVISION OF TRANSPORT CORP. OF INDIA LIMITED)</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>TCI FREIGHT (A DIVISION OF TRANSPORT CORP. OF INDIA LIMITED)</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="PR ENTERPRISES" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>PR ENTERPRISES</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>PR ENTERPRISES</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="SAURABH MARKETING CONCERN" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>SAURABH MARKETING CONCERN</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>SAURABH MARKETING CONCERN</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="LIBERTY GENERAL INSURANCE LIMITED" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>LIBERTY GENERAL INSURANCE LIMITED</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>LIBERTY GENERAL INSURANCE LIMITED</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="UMANG BUSINESS CONSULTANT PRIVATE LIMITED" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>UMANG BUSINESS CONSULTANT PRIVATE LIMITED</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>UMANG BUSINESS CONSULTANT PRIVATE LIMITED</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="NIDHI ENTERPRISE" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>NIDHI ENTERPRISE</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>NIDHI ENTERPRISE</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="VIJAY TRADING CO." RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>VIJAY TRADING CO.</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>VIJAY TRADING CO.</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="AMRUT  &amp;  CO" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>AMRUT  &amp;  CO</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>AMRUT  &amp;  CO</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="GAJANAND GOYAL &amp; CO." RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>GAJANAND GOYAL &amp; CO.</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>GAJANAND GOYAL &amp; CO.</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="MAYA AUTO MOBILES" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>MAYA AUTO MOBILES</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>MAYA AUTO MOBILES</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="PEBCO MOTORS" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>PEBCO MOTORS</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>PEBCO MOTORS</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="MAX LOGISTICS" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>MAX LOGISTICS</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>MAX LOGISTICS</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="JUST UNIFORM" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>JUST UNIFORM</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>JUST UNIFORM</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="TECHNOFAB" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>TECHNOFAB</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>TECHNOFAB</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="TIRUPATI ADVERTISEMENT" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>TIRUPATI ADVERTISEMENT</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>TIRUPATI ADVERTISEMENT</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="MANGALAM MHADEV ENTERPRISE" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>MANGALAM MHADEV ENTERPRISE</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>MANGALAM MHADEV ENTERPRISE</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="KAS" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>KAS</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>KAS</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="SHREE VISHNU TRADING" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>SHREE VISHNU TRADING</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>SHREE VISHNU TRADING</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="BANSI TYRES" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>BANSI TYRES</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>BANSI TYRES</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="CP SHINE FACILITY MANAGEMENT SERVICES" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>CP SHINE FACILITY MANAGEMENT SERVICES</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>CP SHINE FACILITY MANAGEMENT SERVICES</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="R.H. TRANSPORT" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>R.H. TRANSPORT</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>R.H. TRANSPORT</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="PRECISION SYSTEMS CORPORATION" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>PRECISION SYSTEMS CORPORATION</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>PRECISION SYSTEMS CORPORATION</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="COLD ROOMS ENGINEER" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>COLD ROOMS ENGINEER</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>COLD ROOMS ENGINEER</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="JAI MAHAVIR INFOCOM" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>JAI MAHAVIR INFOCOM</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>JAI MAHAVIR INFOCOM</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="COLD STAR SOLUTIONS PRIVATE LIMITED" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>COLD STAR SOLUTIONS PRIVATE LIMITED</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>COLD STAR SOLUTIONS PRIVATE LIMITED</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="RELIANCE RETAIL LIMITED" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>RELIANCE RETAIL LIMITED</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>RELIANCE RETAIL LIMITED</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="KUMAR REFRIGERATION" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>KUMAR REFRIGERATION</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>KUMAR REFRIGERATION</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="Ram Bakery Machines &amp; Engineers" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>Ram Bakery Machines &amp; Engineers</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>Ram Bakery Machines &amp; Engineers</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="AROMA BAKE EQUIPMENTS" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>AROMA BAKE EQUIPMENTS</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>AROMA BAKE EQUIPMENTS</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="NATIONAL TEA COMPANY" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>NATIONAL TEA COMPANY</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>NATIONAL TEA COMPANY</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="XLUSIV" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>XLUSIV</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>XLUSIV</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="J K CHEMICAL" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>J K CHEMICAL</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>J K CHEMICAL</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="WORKINDIA" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>WORKINDIA</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>WORKINDIA</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="HEIGHTS" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>HEIGHTS</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>HEIGHTS</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="ASCENDENCY CONSULTANT PRIVATE LIMITED" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>ASCENDENCY CONSULTANT PRIVATE LIMITED</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>ASCENDENCY CONSULTANT PRIVATE LIMITED</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="DURGA TRADERS" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>DURGA TRADERS</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>DURGA TRADERS</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="NAVARANG PRINTERS AND ANKUR TRADING" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>NAVARANG PRINTERS AND ANKUR TRADING</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>NAVARANG PRINTERS AND ANKUR TRADING</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="WRAP CLINIC KOLKATA" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>WRAP CLINIC KOLKATA</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>WRAP CLINIC KOLKATA</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="CONQUEST ADMEDIA" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>CONQUEST ADMEDIA</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>CONQUEST ADMEDIA</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="VIEW POINTS" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>VIEW POINTS</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>VIEW POINTS</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="DOLPHIN ENTERPRISE" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>DOLPHIN ENTERPRISE</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>DOLPHIN ENTERPRISE</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="S M ADVERTISING" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>S M ADVERTISING</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>S M ADVERTISING</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="GREYMIND PUBLICATION" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>GREYMIND PUBLICATION</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>GREYMIND PUBLICATION</ADDITIONALNAME>
-                        <PARENT>Sundry Creditors</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="Purchase(KOLKATA)" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>Purchase(KOLKATA)</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>Purchase(KOLKATA)</ADDITIONALNAME>
-                        <PARENT>Purchase Accounts</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="Input IGST(KOLKATA)" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>Input IGST(KOLKATA)</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>Input IGST(KOLKATA)</ADDITIONALNAME>
-                        <PARENT>Duties &amp; Taxes</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="Input CGST(KOLKATA)" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>Input CGST(KOLKATA)</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>Input CGST(KOLKATA)</ADDITIONALNAME>
-                        <PARENT>Duties &amp; Taxes</PARENT>
-                        <ISBILLWISEON>No</ISBILLWISEON>
-                        <AFFECTSSTOCK>No</AFFECTSSTOCK>
-                        <SERVICECATEGORY />
-                    </LEDGER>
-                </TALLYMESSAGE><TALLYMESSAGE>
-                    <LEDGER NAME="Input SGST(KOLKATA)" RESERVEDNAME="">                         
-                        <NAME.LIST>
-                            <NAME>Input SGST(KOLKATA)</NAME>
-                        </NAME.LIST>
-                        <ADDITIONALNAME>Input SGST(KOLKATA)</ADDITIONALNAME>
-                        <PARENT>Duties &amp; Taxes</PARENT>
+                        <ADDITIONALNAME>Rent</ADDITIONALNAME>
+                        <PARENT>Indirect Expenses</PARENT>
                         <ISBILLWISEON>No</ISBILLWISEON>
                         <AFFECTSSTOCK>No</AFFECTSSTOCK>
                         <SERVICECATEGORY />

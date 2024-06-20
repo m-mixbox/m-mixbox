@@ -12,7 +12,7 @@ import time
 def read_excel():
 
 
-    df = pd.read_excel(r"C:\Users\MBSPL-Ayush\Desktop\tally.xlsx", engine='openpyxl')
+    df = pd.read_excel(r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\tally_test.xlsx", engine='openpyxl')
     df.fillna('')
     #print(df)
 # Create an empty list 
