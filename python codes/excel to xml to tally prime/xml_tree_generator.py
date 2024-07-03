@@ -12,7 +12,7 @@ import time
 def read_excel():
 
 
-    df = pd.read_excel(r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\tally_test.xlsx", engine='openpyxl')
+    df = pd.read_excel(r"D:\New folder\tally.xlsx", engine='openpyxl')
     df.fillna('')
     #print(df)
 # Create an empty list 
@@ -110,6 +110,7 @@ def xml_data():
                                     for ledger in ledger_entry_data.iter('ALLLEDGERENTRIES.LIST'):
                                         ledger.find('AMOUNT').text = str(amount_list[i][j])
                                         ledger.find('LEDGERNAME').text = str(company_list[i][j])
+                                        #remove this portion for erp 9
                                         if amount_list[i][j] > 0 :
                                             ledger.find('ISDEEMEDPOSITIVE').text = 'NO'
                                         else:
