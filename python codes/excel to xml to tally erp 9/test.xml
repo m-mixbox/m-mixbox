@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+	<Food> 
+
+		<Info> 
+		<Msg>Food Store items.</Msg> 
+		</Info> 
+
+		<store slNo="1"> 
+			<foodItem>meat</foodItem> 
+			<price>200</price> 
+			<quantity>1kg</quantity> 
+			<discount>7%</discount> 
+		</store> 
+
+		<store slNo="2"> 
+			<foodItem>fish</foodItem> 
+			<price>150</price> 
+			<quantity>1kg</quantity> 
+			<discount>5%</discount> 
+		</store> 
+
+		<store slNo="3"> 
+			<foodItem>egg</foodItem> 
+			<price>100</price> 
+			<quantity>50 pieces</quantity> 
+			<discount>5%</discount> 
+		</store> 
+
+		<store slNo="4"> 
+			<foodItem>milk</foodItem> 
+			<price>50</price> 
+			<quantity>1 litre</quantity> 
+			<discount>3%</discount> 
+		</store> 
+
+	</Food>

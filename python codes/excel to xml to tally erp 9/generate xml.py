@@ -11,7 +11,7 @@ from xml.etree.ElementTree import ElementTree
 def read_excel():
 
 
-    df = pd.read_excel(r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\tally_test.xlsx", engine='openpyxl')
+    df = pd.read_excel(r'D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\tally_test.xlsx', engine='openpyxl')
     #print(df)
 # Create an empty list 
     df_list = [list(row) for row in df.values]
@@ -82,13 +82,13 @@ def generate_xml():
         amount_list_count.append(len(amount_list[i]))
     #print(amount_list_count)
     date = convert_date_format(date_unorganised)
-    xmldata = r"D:\xampp\htdocs\scripts\excel to xml to tally prime\tally_raw.xml" 
+    xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\tally_raw.xml" 
     prstree = ElementTree()
     prstree.parse(xmldata) 
     root = prstree.getroot()
 
     if len(amount_list) >= 2:
-        xmldata = r"D:\xampp\htdocs\scripts\excel to xml to tally prime\request_data.xml" 
+        xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\request_data.xml" 
         tree1 = ElementTree()
         tree1.parse(xmldata) 
         request_data = tree1.getroot()
@@ -107,7 +107,7 @@ def generate_xml():
                     for voucher in req.iter('VOUCHER'):
 
                         #print(narration[i])
-                        xmldata = r"D:\xampp\htdocs\scripts\excel to xml to tally prime\ledger.xml" 
+                        xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\ledger.xml" 
                         tree2 = ElementTree()
                         tree2.parse(xmldata) 
                         ledger_entry_data = tree2.getroot()
@@ -132,7 +132,7 @@ def generate_xml():
                             current_time = datetime.datetime.now(pytz.timezone('Asia/Kolkata'))
                             time = str(current_time.hour) + '-' + str(current_time.minute) +'-' + str(current_time.second)
                             directory = time
-                            parent_dir = r"D:\xampp\htdocs\scripts\excel to xml to tally prime\xml data"
+                            parent_dir = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\xml data"
                             path = os.path.join(parent_dir, directory) 
                             error = ''
                             try:

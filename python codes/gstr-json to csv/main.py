@@ -3,8 +3,8 @@ import pandas as pd
 import json
 
 
-path_of_json_file = r'D:\xampp\htdocs\scripts\json to csv\returns_26082023_R1_20AAGCT5841D1ZQ_offline_others_0.json'
-path_of_excel_file = r"D:\data.xlsx"
+path_of_json_file = r"D:\New folder\cgl gs\static gk\returns_11072024_R1_20AAUCA7296F1ZE_offline_others_0.json"
+path_of_excel_file = r"D:\gstr1\data.xlsx"
 
 
 import b2b
@@ -35,7 +35,7 @@ with pd.ExcelWriter(path_of_excel_file) as writer:
       df2.to_excel(writer, sheet_name="b2b line items", index=False)
     if 'b2cs' in raw_data :
       df3 = b2cs.df
-      df3.to_excel(writer, sheet_name="b2b line items", index=False)
+      df3.to_excel(writer, sheet_name="b2cs", index=False)
     if 'nil' in raw_data :
       df4 = nil.df
-      df4.to_excel(writer, sheet_name="b2b line items", index=False)
+      df4.to_excel(writer, sheet_name="nil", index=False)

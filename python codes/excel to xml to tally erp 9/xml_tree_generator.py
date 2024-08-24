@@ -1,5 +1,4 @@
 
-from math import nan
 import pandas as pd
 import os
 import datetime
@@ -7,13 +6,12 @@ import pytz
 from datetime import date as dt
 import xml.etree.ElementTree as ET
 from xml.etree.ElementTree import ElementTree
-import time
 
 def read_excel():
 
 
-    df = pd.read_excel(r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\tally_test.xlsx", engine='openpyxl')
-    df.fillna('')
+    df = pd.read_excel(r"D:\New folder\cgl gs\static gk\tally_test.xlsx", engine='openpyxl')
+    #df.fillna(' ',inplace=True)
     #print(df)
 # Create an empty list 
     df_list = [list(row) for row in df.values]
@@ -32,26 +30,25 @@ def read_excel():
         
         company_name = []
         amount = []
-        #print(df_list[k][0])
-        if pd.isna(df_list[k][0]) :
-            voucher_number.append('')
-        else:
+        if not pd.isna(df_list[k][0]):
             voucher_number.append(str(df_list[k][0]))
+        else :
+            voucher_number.append('')
         voucher_type.append(str(df_list[k][1]))
         date.append(df_list[k][2])
         narration.append(str(df_list[k][3]))
         j=5
         for i in range(4,len(df_list[k]),2):
-            if not pd.isna(df_list[k][i]) or not pd.isna(df_list[k][j]):
-                if pd.isna(df_list[k][i]) and not pd.isna(df_list[k][j]):
-                    company_name.append(str(' '))
-                else :
-                    company_name.append(str(df_list[k][i]))
+            if not pd.isna(df_list[k][i]):
+                company_name.append(df_list[k][i])
             if not pd.isna(df_list[k][j]):
                 #print(df_list[k][j])
-                amount.append(round(df_list[k][j],2))
+                amount.append(df_list[k][j])
             j+=2
+        #print(amount)
+        #print(k)
         if sum(amount) == 0:
+            
             company_list.append(company_name)
             amount_list.append(amount)
         else :
@@ -78,12 +75,12 @@ def create_directory():
         parent_dir = "D:/tally xml/"
         path = os.path.join(parent_dir, directory) 
         error = ''
-        try:
-            os.makedirs(path, exist_ok = True)
-            print("Directory '%s' created successfully" % directory) 
-            error = ''
-        except OSError as error:
-            print(error)
+        #try:
+         #   os.makedirs(path, exist_ok = True)
+          #  print("Directory '%s' created successfully" % directory) 
+           # error = ''
+        #except OSError as error:
+         #   print(error)
         return error,path
 
 def xml_data():
@@ -103,21 +100,20 @@ def xml_data():
                             j=0
                             while(j+1 <= len(amount_list[i])):
                                     #print(j)
-                                    xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\ledger.xml" 
+                                    xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally erp 9\ledger.xml" 
                                     tree2 = ElementTree()
                                     tree2.parse(xmldata) 
                                     ledger_entry_data = tree2.getroot()
                                     for ledger in ledger_entry_data.iter('ALLLEDGERENTRIES.LIST'):
                                         ledger.find('AMOUNT').text = str(amount_list[i][j])
                                         ledger.find('LEDGERNAME').text = str(company_list[i][j])
-                                        #remove this portion for erp 9
                                         if amount_list[i][j] > 0 :
                                             ledger.find('ISDEEMEDPOSITIVE').text = 'NO'
                                         else:
                                             ledger.find('ISDEEMEDPOSITIVE').text = 'YES'
                                         current_time = datetime.datetime.now(pytz.timezone('Asia/Kolkata'))
-                                        directory = str(dt.today()) + ' '+ str(current_time.hour) + '-' + str(current_time.minute) +'-' + str(current_time.second)
-                                        parent_dir = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\xml data"
+                                        directory = str(dt.today()) + str(current_time.hour) + '-' + str(current_time.minute) +'-' + str(current_time.second)
+                                        parent_dir = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally erp 9\xml data"
                                         path = os.path.join(parent_dir, directory) 
                                         error = ''
                                         try:
@@ -131,32 +127,29 @@ def xml_data():
                                         z+=1
                                     j+=1
                         return filename_list,[company_list,amount_list,narration,date_unorganised,voucher_type,voucher_number]
-
-# get the start time
-st = time.time()   
-
+                            
 filename,[company_list,amount_list,narration,date_unorganised,voucher_type,voucher_number] = xml_data()
 date_time = convert_date_format(date_unorganised)
-xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\request_data.xml" 
+xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally erp 9\request_data.xml" 
 tree1 = ElementTree()
 tree1.parse(xmldata) 
 request_data = tree1.getroot()
-xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\tally_raw.xml" 
+xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally erp 9\tally_raw.xml" 
 prstree = ElementTree()
 prstree.parse(xmldata) 
 root = prstree.getroot()
 
-for import_data in root.iter('IMPORTDATA'):
+for import_data in root.iter('REQUESTDATA'):
     k=0
     for i in range(len(amount_list)):
-        xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\request_data.xml" 
+        xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally erp 9\request_data.xml" 
         tree1 = ElementTree()
         tree1.parse(xmldata) 
         request_data = tree1.getroot()
         for voucher in request_data.iter('VOUCHER'):
             voucher.find('VOUCHERNUMBER').text = voucher_number[i]
-            voucher.find('PARTYLEDGERNAME').text = company_list[i][0]
             voucher.find('NARRATION').text = narration[i]
+            voucher.find('PARTYLEDGERNAME').text = company_list[i][0]
             voucher.find('DATE').text = date_time[i]
             voucher.find('EFFECTIVEDATE').text = date_time[i]
             voucher.find('VOUCHERTYPENAME').text = voucher_type[i]
@@ -164,13 +157,8 @@ for import_data in root.iter('IMPORTDATA'):
             for j in range(len(amount_list[i])):
                 voucher.append(ET.parse(filename[k]).getroot())
                 k+=1
+            #ET.dump(voucher)
         import_data.append(request_data)
 error,path = create_directory()
 filename = path +'.xml'
 prstree.write(filename,encoding="utf-8")
-# get the end time
-et = time.time()
-
-# get the execution time
-elapsed_time = et - st
-print('Execution time:', round(elapsed_time,3), 'seconds')

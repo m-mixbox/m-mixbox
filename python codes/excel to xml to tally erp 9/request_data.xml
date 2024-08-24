@@ -1,0 +1,23 @@
+			
+				<TALLYMESSAGE xmlns:UDF="TallyUDF">
+					<VOUCHER ACTION="Create" VCHTYPE="Contra">
+						<VOUCHERTYPENAME>
+							Contra
+						</VOUCHERTYPENAME>
+						<DATE>
+							20230402
+						</DATE>
+						<VOUCHERNUMBER>
+						</VOUCHERNUMBER>
+						<PARTYLEDGERNAME>
+							Cash2
+						</PARTYLEDGERNAME>
+						<NARRATION>
+							Cash Received
+						</NARRATION>
+						<EFFECTIVEDATE>
+							20230402
+						</EFFECTIVEDATE>
+					</VOUCHER>
+				</TALLYMESSAGE>
+			
