@@ -10,7 +10,7 @@ from xml.etree.ElementTree import ElementTree
 def read_excel():
 
 
-    df = pd.read_excel(r"D:\New folder\cgl gs\static gk\tally_test.xlsx", engine='openpyxl')
+    df = pd.read_excel(r"D:\New folder\cgl gs\static gk\tally_test - Copy.xlsx", engine='openpyxl')
     #df.fillna(' ',inplace=True)
     #print(df)
 # Create an empty list 
