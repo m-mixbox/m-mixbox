@@ -14,7 +14,7 @@ except ImportError:
 def create_directory():
         current_time = datetime.datetime.now(pytz.timezone('Asia/Kolkata'))
         time = str(current_time.hour) + '-' + str(current_time.minute) +'-' + str(current_time.second)
-        directory = str(date.today())+ ' ' +time
+        directory = str(dt.today())+ ' ' +time
         parent_dir = "D:/microsoft word/"
         path = os.path.join(parent_dir, directory) 
         error = ''

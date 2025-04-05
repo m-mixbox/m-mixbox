@@ -11,7 +11,7 @@ from xml.etree.ElementTree import ElementTree
 def read_excel():
 
 
-    df = pd.read_excel(r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\tally_test.xlsx", engine='openpyxl')
+    df = pd.read_excel(r"D:\New folder\cgl gs\static gk\Ranchi Anupam kr. singh medicine.xlsx", engine='openpyxl')
     #print(df)
 # Create an empty list 
     df_list = [list(row) for row in df.values]

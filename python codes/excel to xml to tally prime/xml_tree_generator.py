@@ -12,7 +12,7 @@ import time
 def read_excel():
 
 
-    df = pd.read_excel(r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\tally_test.xlsx", engine='openpyxl')
+    df = pd.read_excel(r"D:\New folder\cgl gs\static gk\Ranchi Anupam kr. singh medicine.xlsx", engine='openpyxl')
     df.fillna('')
     #print(df)
 # Create an empty list 
@@ -103,7 +103,7 @@ def xml_data():
                             j=0
                             while(j+1 <= len(amount_list[i])):
                                     #print(j)
-                                    xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\ledger.xml" 
+                                    xmldata = r"D:\xamppnew\htdocs\scripts\python codes\excel to xml to tally prime\ledger.xml" 
                                     tree2 = ElementTree()
                                     tree2.parse(xmldata) 
                                     ledger_entry_data = tree2.getroot()
@@ -117,7 +117,7 @@ def xml_data():
                                             ledger.find('ISDEEMEDPOSITIVE').text = 'YES'
                                         current_time = datetime.datetime.now(pytz.timezone('Asia/Kolkata'))
                                         directory = str(dt.today()) + ' '+ str(current_time.hour) + '-' + str(current_time.minute) +'-' + str(current_time.second)
-                                        parent_dir = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\xml data"
+                                        parent_dir = r"D:\xamppnew\htdocs\scripts\python codes\excel to xml to tally prime\xml data"
                                         path = os.path.join(parent_dir, directory) 
                                         error = ''
                                         try:
@@ -137,11 +137,11 @@ st = time.time()
 
 filename,[company_list,amount_list,narration,date_unorganised,voucher_type,voucher_number] = xml_data()
 date_time = convert_date_format(date_unorganised)
-xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\request_data.xml" 
+xmldata = r"D:\xamppnew\htdocs\scripts\python codes\excel to xml to tally prime\request_data.xml" 
 tree1 = ElementTree()
 tree1.parse(xmldata) 
 request_data = tree1.getroot()
-xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\tally_raw.xml" 
+xmldata = r"D:\xamppnew\htdocs\scripts\python codes\excel to xml to tally prime\tally_raw.xml" 
 prstree = ElementTree()
 prstree.parse(xmldata) 
 root = prstree.getroot()
@@ -149,7 +149,7 @@ root = prstree.getroot()
 for import_data in root.iter('IMPORTDATA'):
     k=0
     for i in range(len(amount_list)):
-        xmldata = r"D:\xampp\htdocs\scripts\python codes\excel to xml to tally prime\request_data.xml" 
+        xmldata = r"D:\xamppnew\htdocs\scripts\python codes\excel to xml to tally prime\request_data.xml" 
         tree1 = ElementTree()
         tree1.parse(xmldata) 
         request_data = tree1.getroot()

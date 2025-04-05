@@ -47,6 +47,7 @@ def save_pdf_reportlab(essays, filename="generated_essays.pdf"):
 
 # Read topics from a file (you can replace this with your own list of topics)
 topics = []
+essays = {}
 with open(r"C:\Users\MBSPL-Ayush\Desktop\topics.txt", 'r', encoding="utf-8") as file:
     # Read each line in the file
     for line in file:
@@ -57,7 +58,7 @@ print(len(topics))
 print('started writing')
 for topic in topics :
     if topic != "AFSPA":
-        essays = {topic: generate_essay(topic) }
+        essays[topic] = {topic: generate_essay(topic) }
     else:
         break
 with open('essay.json',"w") as file:
