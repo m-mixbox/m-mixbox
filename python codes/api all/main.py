@@ -182,3 +182,5 @@ async def upload_excel(file: UploadFile = File(...)):
     except Exception as e:
         logger.error(f"Error uploading file: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Failed to upload Excel file: {str(e)}")
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000)
