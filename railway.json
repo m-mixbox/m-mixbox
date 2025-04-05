@@ -2,7 +2,7 @@
 {
   "build": {
     "env": "python",
-    "buildCommand": "pip install -r python codes/api all/requirements.txt",
-    "startCommand": "python codes/api all/main.py"
+    "buildCommand": "pip install -r \"python codes/api all/requirements.txt\"",
+    "startCommand": "python \"codes/api all/main.py\""
   }
 }
